@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>ID Card_079</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            .gandr{
+                position: fixed;
+                margin-top:-230px;
+                margin-left: -200px;
+                top:50%;
+                left:50%;
+                width:450px;
+                height: 420px;
+                background-color:gainsboro;
+            }
+        </style>
+    </head>
+    <body>
+        <div align="center" class="gandr"><h1><b>ID Card</b></h1><br><br>
+        
+        <form action="/end"   method="POST"  enctype="multipart/form-data">
+            Nama  <br><br><input type="text" name="nama"><br><br>
+            Tanggal Lahir <br><br><input type="date" name="tgllahir"><br><br>
+            Foto <br><br><input type="file" name="foto"><br><br><br>
+            <input type="submit" value="Send"><br>
+        </form>
+    </body>
+</html>
+
